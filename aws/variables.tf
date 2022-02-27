@@ -5,17 +5,17 @@ variable "aws_region" {
 
 variable "subnet_id" {
   description = "SHOULD BE PUBLIC !!!"
-  default     = "subnet-069fbd687aa43f84b"
+  default     = "subnet-06c70186d7b47cbc7"
 }
 
 variable "vpc_id" {
   description = "vpc_id"
-  default     = "vpc-0d886e81c3a509d51"
+  default     = "vpc-0ae1bb47c2ecb484d"
 }
 
 variable "instance_count" {
   description = "numbder of instances"
-  default     = "15"
+  default     = "10"
 }
 
 variable "instance_type" {
